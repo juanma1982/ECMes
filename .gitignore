@@ -1,0 +1,13 @@
+bin/
+lib/
+lib-src/
+target/
+.settings/
+*~
+train/en-wikifiles
+MEJORAS.txt
+dist/
+.~lock.readme.odt#
+readme.odt
+itp-oie-es.jar
+TestExtractionUsingJSONPatternsIgnore.java

@@ -1,6 +1,6 @@
 # ITP-OIE-ES
-Método de extracción de relaciones semánticas para la Web (OIE) en español
-Open Information extraction method for Spanish language
+* Método de extracción de relaciones semánticas para la Web (OIE) en español
+* Open Information extraction method for Spanish language
 
 ## Instrucciones en español
 

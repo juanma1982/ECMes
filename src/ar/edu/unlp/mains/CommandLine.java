@@ -111,6 +111,8 @@ public class CommandLine {
 				case "menu":
 				case "-menu":
 				case "--menu":
+				case "-h":
+				case "--h":
 					flagShowHelp = true;
 					break;
 				case "-scoreLimitOff":
@@ -226,11 +228,12 @@ public class CommandLine {
 	}
 
 	private static void printHelp() {
-		System.out.println("TP-OIE-ES : Tree pattern - Open Information Extractor - Español"); 
+		System.out.println("ECMes : Extractor de Conocimiento Mejorado en Español"); 
+		System.out.println("		ECMes es un método de Open Information Extraction en idioma español");
 		System.out.println("Ejemplo de uso:");
-		System.out.println("	java -jar -Xmx4056m  -Xms1024m -ea tp-oie.jar -f /path/inputfile.txt");
-		System.out.println("	java -jar -Xmx4056m  -Xms1024m -ea tp-oie.jar -f /path/inputfile.txt -o /path/output.file");
-		System.out.println("	java -jar -Xmx4056m  -Xms1024m -ea tp-oie.jar <options> -f /path/inputfile.txt -o /path/output.file");
+		System.out.println("	java -jar -Xmx4056m  -Xms1024m -ea ECMes.jar -f /path/inputfile.txt");
+		System.out.println("	java -jar -Xmx4056m  -Xms1024m -ea ECMes.jar -f /path/inputfile.txt -o /path/output.file");
+		System.out.println("	java -jar -Xmx4056m  -Xms1024m -ea ECMes.jar <options> -f /path/inputfile.txt -o /path/output.file");
 		System.out.println("");
 		System.out.println("opciones disponibles: ");
 		System.out.println(" -f  <file>: parametro obligatorio, indica un archivo de texto de entrada");
